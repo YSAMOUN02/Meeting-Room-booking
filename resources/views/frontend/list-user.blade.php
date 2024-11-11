@@ -65,12 +65,12 @@
                                 <option value="Comercail">Commercial</option>
                                 <option value="Design">Design</option>
                                 <option value="Export">Export</option>
+                                <option value="HR">HR</option>
                                 <option value="Finance">Finance</option>
                                 <option value="IT">IT</option>
                                 <option value="Logistic">Logistic</option>
                                 <option value="Management">Management</option>
                                 <option value="Marketing">Marketing</option>
-
                                 <option value="Planning">Planning</option>
                                 <option value="Production">Production</option>
                                 <option value="Purchase">Purchase</option>
@@ -141,7 +141,7 @@
         <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
 
             <div class="overflow-x-auto">
-                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <table class="table w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
                             <th scope="col" class="px-4 py-3">ID</th>

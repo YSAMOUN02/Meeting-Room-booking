@@ -27,6 +27,9 @@ Route::post('/login/submit', [AdminController::class, 'login_submit']);
 
 
 
+Route::get('/user/create', [UserController::class, 'create_user_form']);
+
+Route::post('/user/create/submit', [UserController::class, 'create_user_submit']);
 
 
 Route::middleware(['auth'])->group(function () {
@@ -52,9 +55,6 @@ Route::middleware(['auth'])->group(function () {
 
     Route::post('/user/update/submit',[UserController::class, 'update_user']);
 
-    Route::get('/user/create', [UserController::class, 'create_user_form']);
-
-    Route::post('/user/create/submit', [UserController::class, 'create_user_submit']);
 
 
 

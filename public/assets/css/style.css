@@ -147,6 +147,7 @@ body{
 
 }
 #toast p{
+    width: auto !important;
     white-space: nowrap;
     color: red;
     font-weight: bold;
@@ -158,6 +159,12 @@ body{
 
 .selected{
     background-color: rgb(219, 255, 219);
+}
+.table th{
+    white-space: nowrap;
+}
+.table td{
+    white-space: nowrap;
 }
 @keyframes fade {
     0%{

@@ -144,6 +144,7 @@
                                 <option value="Comercail">Commercial</option>
                                 <option value="Design">Design</option>
                                 <option value="Export">Export</option>
+                                <option value="HR">HR</option>
                                 <option value="Finance">Finance</option>
                                 <option value="IT">IT</option>
                                 <option value="Logistic">Logistic</option>

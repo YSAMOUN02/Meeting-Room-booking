@@ -48,12 +48,10 @@ class AdminController extends Controller
 
     public function logout(){
       $s =  Auth::logout();
-    if($s){
-        return redirect('/')->with('success','Logout Success.');
-    }else{
 
-        return redirect('/')->with('fail','Invalid Credential.');
-    }
+
+        return redirect('/')->with('success','Logout Success.');
+
     }
 }
 
